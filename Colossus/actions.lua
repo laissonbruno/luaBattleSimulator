@@ -73,9 +73,9 @@ end
 
 
 -- Returns a list of valid actions
--- @param playerData table Player definition
--- @param creatureData table Definition of the creature
--- @return table
+--- @param playerData table Player definition
+--- @param creatureData table Definition of the creature
+--- @return table
 
 function actions.getValidActions(playerData, creatureData)
     local validActions = {}

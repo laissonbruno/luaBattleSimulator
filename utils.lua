@@ -37,8 +37,8 @@ end
 
 --
 -- Calculates an ASCII progress bar based on an attribute.
--- @param attribute number Number from 0 to 10.
--- @return string
+--- @param attribute number Number from 0 to 10.
+--- @return string
 --
 
 function utils.getProgressBar(attribute)
@@ -58,7 +58,7 @@ end
 
 --
 -- Prints a creature's information.
--- @param creature table
+--- @param creature table
 --
 
 function utils.printCreature(creature)
@@ -78,7 +78,7 @@ function utils.printCreature(creature)
 end
 
 -- Asks the user for a number, which is returned by the function.
--- @return any
+--- @return any
 
 function utils.ask()
     io.write("> ")
